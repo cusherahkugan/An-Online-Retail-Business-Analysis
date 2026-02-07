@@ -1,44 +1,26 @@
----
+# Online Retail Business Analytics
 
-## Overview
+## Business Problem
+The objective of this project is to analyze online retail data to identify key drivers of revenue and provide strategic insights to senior management (CEO and CMO) for future business planning.
 
-This project analyzes an **online retail dataset** containing **401,604 transactions** and **£8.28M in revenue**.  
-The aim is to uncover **key revenue drivers, top products and markets, customer segments, and seasonal trends**, enabling data-driven business strategy and growth.
+## Dataset
+- Source: Kaggle (TATA Online Retail Dataset)
+- Format: CSV
+- Domain: E-commerce / Online Retail
 
----
+## Tools & Technologies
+- Python
+- Pandas, NumPy
+- Matplotlib, Seaborn
+- Jupyter Notebook
 
-## Features
-
-- Analyze revenue distribution across transactions  
-- Identify top-performing products and geographic markets  
-- Examine monthly and seasonal revenue trends  
-- Segment customers using **K-means clustering (k=3)**  
-- Perform correlation analysis to identify revenue drivers  
-
----
-
-## Tools & Libraries
-
-- **Python**  
-- **Pandas & NumPy** – Data manipulation  
-- **Matplotlib & Seaborn** – Visualization  
-- **Scikit-learn** – Clustering and standardization  
-- **Jupyter Notebook** – Analysis environment  
-
----
-
-## Project Structure
-
-An-Online-Retail-Business-Analysis/
-│
-├── data/ # Dataset (online_retail.csv)
-├── notebooks/ # Jupyter notebook with analysis
-├── images/ # Generated plots
-├── report/ # PDF report
-└── README.md # Project overview
-
-
----
+## Analysis Performed
+- Data cleaning and preprocessing
+- Exploratory Data Analysis (EDA)
+- Revenue analysis by category and region
+- Trend analysis
+- Correlation analysis
+- Customer segmentation using K-Means clustering
 
 ## Key Visualizations
 
@@ -51,21 +33,21 @@ An-Online-Retail-Business-Analysis/
 | Correlation matrix | Heatmap | Quantity strongly drives revenue (0.92 correlation) |
 | Customer segmentation | Scatter plot | Core, low-value, and high-value customers identified for targeted marketing |
 
----
 
 ## Key Insights
-
 - Revenue concentrated in the **UK market** (81.5%)  
 - Seasonal products drive strong sales, especially **Q4**  
 - High-volume purchases are the primary driver of revenue  
 - High-value customers contribute disproportionately and are key for loyalty programs  
 - European markets present growth potential  
 
----
+## Business Recommendations
+- Focus expansion on high-performing regions
+- Invest marketing resources in top product categories
+- Target high-value customer segments with personalized campaigns
 
-## Conclusion
-
-This analysis demonstrates how **data analytics** supports business strategy in online retail.  
-The insights provide actionable guidance for **marketing, inventory management, and market expansion**, enabling data-driven decision-making and revenue optimization.
-
----
+## Repository Structure
+- data/ -> dataset (online_retail.csv)
+- notebooks/ -> analysis notebook
+- images/ -> visualizations
+- report/ ->  report
