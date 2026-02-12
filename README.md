@@ -50,4 +50,4 @@ The objective of this project is to analyze online retail data to identify key d
 - data/ -> dataset (online_retail.csv)
 - notebooks/ -> analysis notebook
 - images/ -> visualizations
-- report/ ->  report
+- report.md ->  report
